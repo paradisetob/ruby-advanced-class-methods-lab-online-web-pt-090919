@@ -12,3 +12,4 @@ class Song
 
 end
 song=song.create
+song.all.include(song)
